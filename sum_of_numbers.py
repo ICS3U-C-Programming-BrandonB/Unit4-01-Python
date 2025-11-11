@@ -27,10 +27,10 @@ def main():
                 sum = sum + counter
                 counter = counter + 1
 
+        print(sum)
+
     except ValueError:
         print("That is not a valid integer")
-
-    print(sum)
 
 
 # outputs the function
